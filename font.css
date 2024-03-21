@@ -1,0 +1,66 @@
+<!DOCTYPE css>
+/* 分頁式標籤 */
+.nav-tabs .nav-link.active{
+    color:#719BA5;
+    background-color: #b5c0db;
+    border-color:#000000;
+}
+
+.tab-content img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* 一般內容 */
+ h1{
+    color:#719BA5;
+    front-size:64px;
+    background-color:#DCDCDC;
+    text-align: center;
+    }
+    
+    h2{
+        color:#719BA5;
+        front-size:47px;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    
+    h3{
+    color:#719BA5;
+    ftont-size:32px;
+    background-color: #F4F6F7;
+    }
+    
+    body{
+        background-color: #DCDCDC;
+    }
+
+    /* 導覽列 */
+    .navbar{
+        background-color:white;
+}
+
+li a{
+    color:#719BA5 !important;
+/* important-在階層較多的時候做使用 */
+}
+
+/* 游標碰觸時顏色改變 */
+li a:hover{
+    color:black !important;
+}
+
+/* 手機版按鈕 */
+.nav-togger{
+    background-color:black ;
+}
+
+/* 一般圖片 */
+    img {
+        object-fit: cover;
+        box-shadow: 3px 3px 3px black;
+        }
+    
+        
